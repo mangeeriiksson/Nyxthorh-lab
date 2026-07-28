@@ -2,73 +2,57 @@
 
 ## Overview
 
-Proxmox serves as the virtualization platform of the Nyxthorh Lab.
+Proxmox Virtual Environment serves as the foundation of the Nyxthorh Lab.
 
-It provides the flexibility to deploy, test, rebuild, and maintain services while keeping the underlying infrastructure stable. Virtualization allows the environment to evolve continuously without requiring dedicated hardware for every workload.
+Virtualization provides the flexibility to deploy, manage, and evaluate multiple systems while maintaining a consistent and manageable infrastructure. It enables services to be isolated, tested, and maintained independently, making the environment suitable for both long-term operation and continuous experimentation.
 
-The platform enables rapid experimentation while maintaining operational consistency.
+The platform supports the overall objective of creating a stable and adaptable infrastructure for learning and professional development.
 
 ---
 
 ## Objectives
 
-The virtualization platform supports several long-term objectives:
+The primary objectives of the virtualization platform are to:
 
-- Isolate services from one another
-- Simplify deployment and maintenance
-- Support safe experimentation
-- Improve resource utilization
-- Enable rapid recovery
-- Provide a scalable foundation for future growth
+- Build practical experience with enterprise virtualization.
+- Support isolated environments for different workloads.
+- Simplify testing and infrastructure changes.
+- Improve operational flexibility.
+- Enable efficient resource utilization.
+- Provide a reliable foundation for the homelab.
 
-The goal is not to run as many virtual machines as possible, but to create an infrastructure that is reliable, manageable, and easy to expand.
-
----
-
-## Infrastructure Design
-
-Each workload is deployed with a clearly defined purpose.
-
-Keeping services separated reduces unnecessary dependencies, simplifies troubleshooting, and allows individual systems to be maintained or rebuilt without affecting unrelated services.
-
-This modular approach supports both operational stability and continuous learning.
+The focus is not simply on running virtual machines, but on understanding how virtualization supports modern infrastructure design.
 
 ---
 
-## Change Management
+## Design
 
-Virtualization makes infrastructure changes significantly less risky.
+The virtualization platform is designed around the principle of consolidation.
 
-New services can be introduced, configurations tested, and upgrades evaluated before becoming permanent parts of the environment.
+Independent services operate within isolated virtual environments, allowing workloads to be managed without unnecessary dependencies between them.
 
-This encourages experimentation while minimizing operational impact.
+This modular design improves maintainability, simplifies troubleshooting, and makes future expansion easier as new projects are introduced.
 
----
-
-## Recovery Strategy
-
-Recovery is considered an integral part of the platform.
-
-Virtualization enables efficient rollback, migration, and restoration when required.
-
-Rather than relying on complex repair procedures, rebuilding or restoring a workload is often the preferred approach.
+The architecture also allows infrastructure changes to be evaluated with minimal impact on existing services, supporting continuous development while maintaining operational stability.
 
 ---
 
 ## Operational Philosophy
 
-Infrastructure should remain predictable.
+The virtualization platform is considered the core of the homelab and is therefore managed with an emphasis on reliability and consistency.
 
-Every virtual machine should have a defined purpose, clear documentation, and minimal unnecessary dependencies.
+New services are introduced gradually and evaluated before becoming permanent components of the environment.
 
-Keeping the environment organized makes future growth significantly easier.
+Documentation accompanies architectural changes to ensure that decisions, reasoning, and operational experience remain available as the infrastructure evolves.
+
+The objective is to create an environment that remains predictable, maintainable, and easy to understand over time.
 
 ---
 
 ## Lessons Learned
 
-Virtualization provides much more than hardware consolidation.
+Working with virtualization has demonstrated that infrastructure is not only about deploying systems but about designing environments that can evolve without becoming unnecessarily complex.
 
-It creates an environment where learning becomes safer, changes become less disruptive, and infrastructure can continuously evolve without sacrificing stability.
+Isolating workloads, documenting architectural decisions, and planning for future growth have consistently improved both reliability and maintainability.
 
-The ability to rebuild with confidence is one of the platform's greatest strengths.
+Perhaps the most valuable lesson has been that virtualization provides the freedom to experiment without compromising stability, making it one of the most effective technologies for developing practical infrastructure and security skills.
