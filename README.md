@@ -1,7 +1,7 @@
 # Nyxthorh Lab
 
 <p align="center">
-  <img src="assets/nyxthorh-infrastructure-lab.png" alt="Nyxthorh Lab">
+  <img src="./assets/banner.png.png" alt="Nyxthorh Lab" width="100%">
 </p>
 
 > **Personal infrastructure and cyber security homelab built for learning, experimentation, and documentation.**
