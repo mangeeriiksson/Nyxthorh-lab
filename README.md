@@ -1,141 +1,75 @@
-# * Cybersecurity Lab & CTF Portfolio
+# Nyxthorh Lab
 
-Welcome to my cybersecurity portfolio repository. This project documents the design, configuration, and continuous development of my personal cybersecurity lab environment, as well as writeups and tooling from Capture the Flag (CTF) challenges.  
+<p align="center">
+  <img src="assets/nyxthorh-infrastructure-lab.png" alt="Nyxthorh Lab">
+</p>
 
-The lab and projects are built to simulate real-world scenarios for practicing offensive and defensive security skills.
-
----
-
-## * Objectives and Purpose
-
-The primary goals of this environment and portfolio are:
-
-* Gain hands-on experience configuring and securing enterprise-grade infrastructure  
-* Deploy, harden, and integrate industry-standard security tools  
-* Practice vulnerability assessment, exploitation, and incident response workflows  
-* Automate security operations through scripting and orchestration  
-* Document learnings and methodologies to share knowledge and demonstrate capability
+> **Personal infrastructure and cyber security homelab built for learning, experimentation, and documentation.**
 
 ---
 
-## * Lab Infrastructure Overview
+## About
 
-**Hypervisor:**  
-- Proxmox VE installed on an HP ProLiant DL380e Gen8 server via iLO 4 remote management
+Welcome!
 
-**Virtual Machines:**  
-- **pfSense:** Firewall and network segmentation
-- **Suricata:** Intrusion Detection and Prevention System (IDS/IPS)
-- **Wazuh:** SIEM and log management
-- **ntopng:** Network traffic monitoring and analysis
-- **Kali Linux:** Offensive security testing
-- Additional Linux/Windows targets for vulnerability assessment
+This repository documents my personal homelab, where I explore infrastructure, networking, systems administration, and cyber security through hands-on projects.
 
-**Networking:**  
-- Dedicated management VLAN
-- Segmented lab networks with VLAN tagging
-- Internal DNS and DHCP via pfSense
+The lab has grown over several years as I've rebuilt services, experimented with new technologies, and documented what I've learned along the way. Some projects solve real problems, while others exist simply because I wanted to understand how something works.
 
-**Storage:**  
-- Local SSD for Proxmox and VM storage
-- NFS shares for backups and snapshots
+The environment is constantly evolving, and that's exactly the point.
 
 ---
 
-## * Projects and Configurations
+## Current Focus
 
-Below are the main components and configurations in this lab environment:
+The lab currently focuses on:
 
-### * Proxmox Installation and Configuration
-- Bare-metal installation via iLO remote ISO
-- Storage and network configuration
-- Email alerts and backups
-
- *Proxmox Setup Details*
-
----
-
-### * pfSense Firewall Hardening
-- VLAN segmentation and firewall rule sets
-- Geo-blocking and DNS filtering with pfBlockerNG
-- Suricata inline IDS/IPS integration
-
- *pfSense Configuration*
+- Infrastructure
+- Networking
+- Virtualization
+- Active Directory
+- Linux & Windows Administration
+- Security Monitoring
+- Threat Detection
+- Automation
+- Home Automation
+- Video Surveillance
 
 ---
 
-### * Suricata IDS/IPS
-- Inline deployment with pfSense
-- Custom rule tuning
-- Logging and alerting
+## Repository
 
- *Suricata Configuration*
+This repository contains documentation, architecture diagrams, project notes, and supporting material from the lab.
 
----
-
-### * Wazuh SIEM
-- Centralized log collection from all lab systems
-- Custom dashboards and detection rules
-- Test scenarios for alert workflows
-
- *Wazuh Setup*
+Documentation will be added continuously as the environment evolves.
 
 ---
 
-### * ntopng Network Monitoring
-- Flow analysis and per-host monitoring
-- Custom traffic alerts and reports
+## Security
 
- *ntopng Monitoring*
+Everything published here has been reviewed before becoming public.
 
----
-
-###  Security Scripts and Automation
-- Bash and Python scripts for:
-  - Automated backups
-  - Log parsing and enrichment
-  - Vulnerability scanning
-
- *Scripts*
+Operational configurations, credentials, certificates, VPN configurations, firewall rules, scripts, API keys, IP addressing, and any other environment-specific information are intentionally excluded.
 
 ---
 
-## * CTF and Vulnerability Research Repositories
+## Roadmap
 
-In addition to the lab environment, I maintain separate repositories documenting CTF challenges, writeups, and tooling:
-
-- [VulnForge CTF](https://github.com/mangeeriiksson/VulnForge-CTF) – Vulnerability research and exploit development from VulnForge scenarios.
-- [Ancicent](https://github.com/mangeeriiksson/ancicent) – Custom Python tools used in CTF exercises.
-- [Mythic Journey CTF](https://github.com/mangeeriiksson/Mythic.journey.ctf) – Writeups and solutions for Mythic Journey CTF.
-- [WRAPP3.0](https://github.com/mangeeriiksson/WRAPP3.0) – Web exploitation challenges and scripts.
-- [Toolbox CTF](https://github.com/mangeeriiksson/toolbox.CTF) – Python utilities for automating CTF workflows.
-
----
-
-## Key Skills and Tools Demonstrated
-
-- Hypervisor and virtualization administration (Proxmox)
-- Network segmentation and firewall configuration (pfSense)
-- IDS/IPS deployment and tuning (Suricata)
-- SIEM implementation and alerting (Wazuh)
-- Traffic monitoring and analysis (ntopng)
-- Offensive security techniques (Kali Linux)
-- Scripting and automation (Bash, Python)
-- Vulnerability research and exploit development
+- [x] Build the core infrastructure
+- [x] Deploy centralized monitoring
+- [x] Implement network segmentation
+- [x] Create an Active Directory lab
+- [ ] Publish architecture diagrams
+- [ ] Expand detection engineering documentation
+- [ ] Add project writeups
+- [ ] Improve automation
 
 ---
 
-## * Screenshots and Documentation
+## License
 
-*(Add screenshots of Proxmox, pfSense, Suricata, Wazuh dashboards here)*
-*(“Note: Screenshots and sample configurations will be added progressively.”)*
----
-
-## * Contact
-
-If you want to learn more about my lab environment, CTF research, or discuss collaboration opportunities:
-
-- **LinkedIn:** 
-- **Email:** 
+This project is licensed under the MIT License.
 
 ---
+
+*Built out of curiosity. Improved through mistakes. Never really finished.*
