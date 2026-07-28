@@ -2,73 +2,77 @@
 
 ## Overview
 
-The firewall is the central security component of the Nyxthorh Lab.
+The firewall serves as the security boundary of the Nyxthorh Lab.
 
-Every connection entering, leaving, or moving between network segments is evaluated according to defined security policies. Rather than simply forwarding traffic, the firewall acts as the primary control point for segmentation, monitoring, and access management.
+Rather than simply filtering traffic, it defines how systems communicate, how network boundaries are enforced, and how access is controlled throughout the environment.
 
-Its purpose is to provide visibility, enforce boundaries, and reduce unnecessary exposure.
-
----
-
-## Objectives
-
-The firewall is designed to support several long-term goals:
-
-- Protect internal services
-- Control communication between network segments
-- Minimize exposed attack surfaces
-- Support secure remote administration
-- Provide detailed logging
-- Serve as the foundation for network security
-
-Security decisions are implemented as policy rather than relying on assumptions.
+Every service deployed within the lab ultimately depends on the firewall to maintain predictable and secure communication.
 
 ---
 
-## Network Segmentation
+## Purpose
 
-Network segmentation is one of the most important security mechanisms within the lab.
+The firewall has four primary responsibilities:
 
-Systems are separated according to their purpose, allowing communication only where it is explicitly required.
+- Protect the infrastructure from unnecessary exposure.
+- Enforce separation between different trust levels.
+- Control communication between network segments.
+- Provide visibility into network activity.
 
-This reduces the potential impact of compromised systems and makes traffic flows easier to understand and audit.
-
----
-
-## Traffic Control
-
-Traffic is evaluated using explicit security policies.
-
-Rather than allowing unrestricted communication, access is granted according to operational requirements.
-
-This approach simplifies troubleshooting while maintaining predictable network behaviour.
+These responsibilities remain the same regardless of how the underlying infrastructure evolves.
 
 ---
 
-## Monitoring and Visibility
+## Security Philosophy
 
-A firewall provides value beyond packet filtering.
+The firewall is configured around the principle of least privilege.
 
-Logs, traffic analysis, and security events provide insight into how the environment behaves during both normal operation and unusual situations.
+Traffic is not permitted simply because it exists.
 
-This visibility supports both troubleshooting and security investigations.
+Communication is allowed only when there is a clear operational requirement.
 
----
-
-## Operational Philosophy
-
-Firewall rules should remain understandable.
-
-As environments grow, rule sets naturally become larger.
-
-Regular review and documentation help maintain consistency and reduce unnecessary complexity.
-
-Security policies should evolve together with the infrastructure they protect.
+This approach reduces unnecessary attack surface while making traffic flows easier to understand and maintain.
 
 ---
 
-## Continuous Improvement
+## Segmentation
 
-The firewall configuration is expected to evolve continuously.
+Not every device within the infrastructure should be able to communicate with every other device.
 
-As new services are introduced and the infrastructure changes, policies are reviewed and adjusted to maintain an appropriate balance between security, usability, and operational simplicity.
+Segmentation creates clear administrative and security boundaries between workloads with different purposes.
+
+By limiting communication paths, the overall resilience of the environment is improved while troubleshooting becomes significantly easier.
+
+---
+
+## Visibility
+
+A firewall should provide more than protection.
+
+It should also provide insight.
+
+Logs and traffic information help explain how the infrastructure behaves during normal operation, making unusual activity easier to identify and investigate.
+
+Security decisions are stronger when they are supported by observable data.
+
+---
+
+## Operational Principles
+
+Firewall policies are expected to evolve.
+
+As new services are introduced and infrastructure changes over time, rules should be reviewed, simplified where possible, and documented.
+
+Maintaining a clean rule base is considered just as important as creating new rules.
+
+---
+
+## Lessons Learned
+
+Building a secure firewall is not about creating the largest possible rule set.
+
+It is about creating policies that remain understandable months later.
+
+Simple, well-documented rules consistently outperform complicated configurations that nobody fully understands.
+
+Security improves when complexity is reduced rather than increased.
