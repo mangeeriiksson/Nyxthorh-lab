@@ -2,53 +2,57 @@
 
 ## Overview
 
-The Active Directory environment within the Nyxthorh Lab exists as a dedicated learning platform.
+The Active Directory environment in the Nyxthorh Lab serves as a dedicated platform for learning enterprise identity and Windows infrastructure.
 
-Its purpose is to provide a realistic enterprise-like environment where identity management, authentication, authorization, and Windows infrastructure can be studied without affecting production systems.
+Its purpose is to provide a controlled environment where authentication, authorization, directory services, and administrative workflows can be explored without impacting other systems.
 
-The lab is intentionally isolated from the rest of the infrastructure to allow experimentation while maintaining operational stability.
+The environment is intentionally isolated, allowing new ideas, configurations, and security concepts to be evaluated while maintaining a stable homelab.
 
 ---
 
 ## Objectives
 
-The Active Directory lab has several long-term objectives:
+The primary objectives of the Active Directory lab are to:
 
-- Develop a deeper understanding of Windows enterprise environments.
-- Learn identity and access management concepts.
-- Explore authentication and authorization mechanisms.
-- Build practical experience with directory services.
-- Support defensive security testing and detection engineering.
-- Provide a safe environment for experimentation.
+- Develop practical knowledge of enterprise identity management.
+- Understand authentication and authorization workflows.
+- Explore centralized administration and Group Policy.
+- Build experience with Windows infrastructure.
+- Support defensive security validation and detection engineering.
+- Create a repeatable environment for continuous learning.
 
-The focus is on understanding how enterprise identity systems operate rather than simply deploying a domain.
+The goal is not simply to deploy a domain, but to understand how identity services support enterprise operations and security.
 
 ---
 
 ## Design
 
-The environment is designed to resemble a simplified enterprise infrastructure.
+The environment is designed around a small number of systems with clearly defined responsibilities.
 
-Individual systems have clearly defined roles, allowing administrative tasks, policy management, authentication, and security monitoring to be explored in a controlled manner.
+Keeping the architecture intentionally simple makes it easier to understand individual technologies before introducing additional complexity. This approach also allows components to be rebuilt, modified, or replaced without affecting the overall learning objectives.
 
-The design prioritises learning, repeatability, and isolation over unnecessary complexity.
+Rather than replicating every aspect of a production enterprise, the design focuses on the core concepts that form the foundation of Windows-based identity management.
 
 ---
 
 ## Operational Philosophy
 
-The Active Directory environment is treated as a disposable learning platform.
+The Active Directory environment is treated as a learning platform rather than production infrastructure.
 
-New configurations, security policies, and administrative changes can be tested without affecting the surrounding infrastructure.
+Changes are introduced gradually, documented throughout the implementation process, and reviewed afterwards to understand both successful outcomes and unexpected behaviour.
 
-Documenting configuration decisions and lessons learned is considered just as important as building the environment itself.
+The objective is not only to operate the environment successfully, but also to understand why specific design decisions produce particular results.
+
+Every iteration contributes to a broader understanding of enterprise identity, administration, and defensive security.
 
 ---
 
 ## Lessons Learned
 
-Active Directory is far more than user accounts and domain management.
+Building an Active Directory environment has demonstrated that enterprise identity extends far beyond user and computer management.
 
-It serves as the foundation for identity, trust, and access control within many enterprise environments.
+Identity services influence authentication, authorization, policy enforcement, administrative delegation, and the overall security posture of an organisation.
 
-Building and maintaining an isolated laboratory provides practical experience that is difficult to obtain through theory alone.
+One of the most valuable lessons has been that understanding the underlying concepts is more important than memorising configuration steps. Practical experience gained through planning, deployment, troubleshooting, and documentation provides a significantly deeper understanding than theory alone.
+
+Maintaining the environment over time has also shown that documentation, consistency, and thoughtful design are just as important as the technology itself.
