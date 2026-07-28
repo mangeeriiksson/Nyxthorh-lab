@@ -4,21 +4,25 @@
   <img src="./assets/banner.png.png" alt="Nyxthorh Lab" width="100%">
 </p>
 
-> Personal infrastructure and cyber security homelab built for learning, experimentation, and documentation.
+> **Personal infrastructure and cyber security homelab built for learning, experimentation, and documentation.**
+
+---
 
 ## About
 
 Welcome.
 
-This repository contains documentation, projects, and lessons learned from my personal homelab.
+This repository documents my personal homelab and the projects, ideas, and lessons that come from building it.
 
-The lab has grown over several years through experimentation, rebuilds, mistakes, and a lot of curiosity. Some projects solve real problems at home. Others exist simply because I wanted to understand how a technology works.
+What started as a single server has gradually grown into a complete environment for exploring infrastructure, networking, systems administration, and cyber security. Some projects solve practical problems at home, while others exist simply because I wanted to understand how a technology works.
 
-The environment is constantly evolving, and that is exactly the point.
+The lab is never really finished, and that is exactly what makes it interesting.
+
+---
 
 ## Current Focus
 
-The lab currently covers areas such as:
+Current areas of focus include:
 
 - Infrastructure
 - Virtualization
@@ -35,9 +39,11 @@ The lab currently covers areas such as:
 - Home automation
 - Video surveillance
 
+---
+
 ## Repository
 
-This repository will contain:
+You'll find things like:
 
 - Architecture diagrams
 - Design decisions
@@ -46,38 +52,47 @@ This repository will contain:
 - Lessons learned
 - Supporting images and diagrams
 
-Documentation will be added as individual parts of the lab are reviewed and prepared for publication.
+Documentation is added over time as projects mature and can be shared without exposing operational details.
+
+---
 
 ## Why I Keep Building
 
-Most projects begin with the same thought:
+Most projects begin with a simple question:
 
-*"I wonder how this works."*
+> *"I wonder how this works."*
 
-A few hours later, I am usually deploying another virtual machine, redesigning part of the network, or reading documentation I had not planned on opening.
+That question usually leads to another virtual machine, another redesign, or another evening spent reading documentation.
 
-Looking back, rebuilding things has probably taught me more than getting them right the first time.
+Building something once is satisfying.
+
+Rebuilding it after understanding what could be improved is where most of the learning happens.
+
+---
 
 ## Security
 
-Everything published here is reviewed before becoming public.
+Everything published here has been reviewed before becoming public.
 
 Operational configurations, credentials, certificates, VPN configurations, firewall rules, scripts, API keys, addressing information, and any other details specific to the environment are intentionally excluded.
 
 Sensitive and operational material remains in private repositories.
 
-I believe it is possible to share architecture, ideas, and lessons learned without exposing the details that make an environment vulnerable.
+The goal is to share ideas, documentation, and lessons learned without exposing information that could weaken the environment.
 
+---
 
 ## Thanks
 
-Thanks to everyone who contributes to the open source community.
+Open source has played a huge role in everything I've learned.
 
-Not only the people behind the big open source projects, but also developers, maintainers, researchers, bloggers, forum members, and everyone else who shares what they have learned.
+Thanks to the developers, maintainers, researchers, bloggers, forum members, and everyone else who takes the time to share their knowledge.
 
-If something in this repository helps someone build a better lab, solve a problem, or start a project of their own, then publishing it has been worthwhile.
+If something in this repository helps someone learn something new, solve a problem, or build a better lab, then sharing it has been worthwhile.
 
 See you in the next rebuild.
+
+---
 
 ## License
 
