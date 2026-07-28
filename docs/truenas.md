@@ -2,54 +2,59 @@
 
 ## Overview
 
-TrueNAS provides the primary storage platform within the Nyxthorh Lab.
+TrueNAS provides the storage foundation of the Nyxthorh Lab.
 
-It serves as the central location for persistent data, supporting virtual infrastructure, application storage, backups, and shared datasets. Rather than acting as a simple file server, it is a core component that contributes to the overall reliability and maintainability of the environment.
+The platform is responsible for delivering reliable storage to services running throughout the environment while supporting long-term data integrity and operational stability. Beyond simply storing data, it serves as a practical platform for understanding how enterprise storage contributes to modern infrastructure.
 
-The storage platform is designed to provide consistency, resilience, and flexibility as the lab continues to evolve.
+The project focuses on building experience with storage management, data protection, and system reliability rather than maximizing storage capacity.
 
 ---
 
 ## Objectives
 
-The primary objectives of the storage platform are:
+The primary objectives of the storage platform are to:
 
-- Provide reliable storage for infrastructure services.
-- Protect important data against accidental loss.
-- Support virtualized workloads.
-- Simplify data management.
-- Provide a scalable foundation for future growth.
+- Build practical experience with enterprise storage concepts.
+- Support reliable data storage for infrastructure services.
+- Improve understanding of data protection strategies.
+- Provide a stable foundation for virtual workloads.
+- Support backup and recovery planning.
+- Develop long-term operational experience with storage management.
 
-Storage is considered a critical service upon which many other components depend.
+The objective is to understand storage as a critical infrastructure component rather than simply a location for files.
 
 ---
 
 ## Design
 
-The storage platform is designed with separation and organization in mind.
+The storage platform is designed to provide dependable and centralized storage for the homelab.
 
-Different types of data are stored independently according to their purpose, making administration simpler while reducing operational complexity.
+Services requiring persistent data rely on a common storage foundation, allowing data management to remain consistent across different workloads.
 
-As new services are introduced, storage requirements are evaluated to ensure that performance, reliability, and maintainability remain balanced.
+The architecture prioritises reliability, maintainability, and future scalability. As the environment evolves, the storage platform can adapt without requiring major changes to the surrounding infrastructure.
 
-The objective is to build an environment that remains understandable as it grows.
+Keeping storage centralized also simplifies administration, monitoring, and long-term planning.
 
 ---
 
 ## Operational Philosophy
 
-Storage should remain predictable.
+The storage platform is managed with a long-term perspective.
 
-Capacity planning, monitoring, maintenance, and documentation are treated as continuous operational responsibilities rather than occasional tasks.
+Changes are introduced carefully, documented throughout the implementation process, and reviewed to ensure they contribute to overall stability.
 
-Changes are introduced carefully to maintain stability while allowing the infrastructure to expand over time.
+Reliability is considered more important than introducing unnecessary features. Operational decisions favour consistency, predictable behaviour, and straightforward maintenance over unnecessary complexity.
+
+The platform evolves gradually as new requirements emerge while continuing to support existing services.
 
 ---
 
 ## Lessons Learned
 
-Reliable storage is often overlooked until something fails.
+Managing centralized storage has demonstrated that reliable infrastructure depends on far more than available disk capacity.
 
-Building the storage platform with long-term reliability in mind has proven far more valuable than focusing solely on capacity or performance.
+Planning, organisation, monitoring, and documentation all contribute to maintaining a dependable storage environment.
 
-A well-organized storage environment simplifies administration, improves recovery, and provides confidence as the infrastructure continues to grow.
+One of the most valuable lessons has been that storage should be viewed as a long-term investment rather than a collection of hardware components. Careful planning and disciplined operational practices consistently produce a more resilient infrastructure.
+
+Building and maintaining the storage platform has provided practical experience in designing systems that prioritise reliability, recoverability, and sustainable growth.
