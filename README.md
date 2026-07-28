@@ -4,72 +4,81 @@
   <img src="./assets/banner.png.png" alt="Nyxthorh Lab" width="100%">
 </p>
 
-> **Personal infrastructure and cyber security homelab built for learning, experimentation, and documentation.**
-
----
+> Personal infrastructure and cyber security homelab built for learning, experimentation, and documentation.
 
 ## About
 
-Welcome!
+Welcome.
 
-This repository documents my personal homelab, where I explore infrastructure, networking, systems administration, and cyber security through hands-on projects.
+This repository contains documentation, projects, and lessons learned from my personal homelab.
 
-The lab has grown over several years as I've rebuilt services, experimented with new technologies, and documented what I've learned along the way. Some projects solve real problems, while others exist simply because I wanted to understand how something works.
+The lab has grown over several years through experimentation, rebuilds, mistakes, and a lot of curiosity. Some projects solve real problems at home. Others exist simply because I wanted to understand how a technology works.
 
-The environment is constantly evolving, and that's exactly the point.
-
----
+The environment is constantly evolving, and that is exactly the point.
 
 ## Current Focus
 
-The lab currently focuses on:
+The lab currently covers areas such as:
 
 - Infrastructure
-- Networking
 - Virtualization
+- Networking and segmentation
+- Windows and Linux administration
 - Active Directory
-- Linux & Windows Administration
-- Security Monitoring
-- Threat Detection
+- Storage
+- VPN technologies
+- Security monitoring
+- Threat detection
+- Threat hunting
+- Penetration testing
 - Automation
-- Home Automation
-- Video Surveillance
-
----
+- Home automation
+- Video surveillance
 
 ## Repository
 
-This repository contains documentation, architecture diagrams, project notes, and supporting material from the lab.
+This repository will contain:
 
-Documentation will be added continuously as the environment evolves.
+- Architecture diagrams
+- Design decisions
+- Project documentation
+- Technical writeups
+- Lessons learned
+- Supporting images and diagrams
 
----
+Documentation will be added as individual parts of the lab are reviewed and prepared for publication.
+
+## Why I Keep Building
+
+Most projects begin with the same thought:
+
+*"I wonder how this works."*
+
+A few hours later, I am usually deploying another virtual machine, redesigning part of the network, or reading documentation I had not planned on opening.
+
+Looking back, rebuilding things has probably taught me more than getting them right the first time.
 
 ## Security
 
-Everything published here has been reviewed before becoming public.
+Everything published here is reviewed before becoming public.
 
-Operational configurations, credentials, certificates, VPN configurations, firewall rules, scripts, API keys, IP addressing, and any other environment-specific information are intentionally excluded.
+Operational configurations, credentials, certificates, VPN configurations, firewall rules, scripts, API keys, addressing information, and any other details specific to the environment are intentionally excluded.
 
----
+Sensitive and operational material remains in private repositories.
 
-## Roadmap
+I believe it is possible to share architecture, ideas, and lessons learned without exposing the details that make an environment vulnerable.
 
-- [x] Build the core infrastructure
-- [x] Deploy centralized monitoring
-- [x] Implement network segmentation
-- [x] Create an Active Directory lab
-- [ ] Publish architecture diagrams
-- [ ] Expand detection engineering documentation
-- [ ] Add project writeups
-- [ ] Improve automation
 
----
+## Thanks
+
+Thanks to everyone who contributes to the open source community.
+
+Not only the people behind the big open source projects, but also developers, maintainers, researchers, bloggers, forum members, and everyone else who shares what they have learned.
+
+If something in this repository helps someone build a better lab, solve a problem, or start a project of their own, then publishing it has been worthwhile.
+
+See you in the next rebuild.
 
 ## License
 
 This project is licensed under the MIT License.
-
----
-
-*Built out of curiosity. Improved through mistakes. Never really finished.*
