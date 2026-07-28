@@ -2,73 +2,59 @@
 
 ## Overview
 
-Wazuh is the primary security monitoring platform within the Nyxthorh Lab.
+Wazuh serves as the central security monitoring platform within the Nyxthorh Lab.
 
-It provides centralized visibility into systems, security events, and infrastructure health while supporting continuous learning in detection engineering and incident response.
+The platform provides visibility into the environment by collecting, processing, and analysing security-related events from selected systems. It supports the development of practical skills in security monitoring, detection engineering, and incident analysis while operating as part of a broader self-hosted infrastructure.
 
-Rather than being deployed as a standalone security product, Wazuh is integrated into the overall architecture and works together with other infrastructure components.
+Rather than focusing on individual alerts, the project aims to improve understanding of how security telemetry can be transformed into meaningful operational insight.
 
 ---
 
 ## Objectives
 
-The platform is used to achieve several long-term objectives:
+The primary objectives of the Wazuh platform are to:
 
-- Centralize security events
-- Improve infrastructure visibility
-- Detect abnormal activity
-- Validate security controls
-- Support investigation and analysis
-- Develop practical defensive security skills
+- Develop practical experience with Security Information and Event Management (SIEM).
+- Improve understanding of host-based detection and monitoring.
+- Explore detection engineering principles.
+- Build experience with log analysis and event correlation.
+- Strengthen incident investigation skills.
+- Support continuous improvement of defensive security capabilities.
 
-The focus is on understanding events rather than simply collecting them.
+The objective is not to generate the largest possible number of alerts, but to produce meaningful visibility into system behaviour.
 
 ---
 
-## Detection Strategy
+## Design
 
-Detection is built around meaningful events instead of alert volume.
+The monitoring platform is designed around the principle of centralised visibility.
 
-Rules and monitoring are continuously refined to reduce unnecessary noise while improving the quality of actionable alerts.
+Security-related events from different systems are collected into a common platform where they can be analysed, correlated, and reviewed through a consistent workflow.
 
-The objective is to understand what happened, why it happened, and how similar activity can be identified in the future.
+The architecture prioritises modularity, allowing monitored systems to evolve independently while maintaining a unified approach to security monitoring.
+
+Detection content, operational workflows, and infrastructure components are continuously refined as experience is gained and new requirements emerge.
 
 ---
 
 ## Operational Philosophy
 
-Monitoring is treated as an ongoing engineering process.
+Security monitoring is treated as an ongoing operational process rather than a one-time deployment.
 
-As new services are introduced, additional telemetry is incorporated to improve visibility and strengthen detection capabilities.
+Detection logic, alert quality, and operational procedures are reviewed regularly to improve accuracy while reducing unnecessary noise.
 
-Detection content is reviewed and improved continuously as the lab evolves.
+The environment is also used to validate architectural decisions and better understand how infrastructure changes influence monitoring and visibility.
 
----
-
-## Integration
-
-Wazuh operates as part of a broader security ecosystem.
-
-Security monitoring becomes significantly more valuable when correlated with network activity, infrastructure changes, and authentication events.
-
-Integration between different security components provides context that isolated alerts cannot.
-
----
-
-## Continuous Improvement
-
-Detection engineering is never finished.
-
-Rules are tuned, new data sources are evaluated, and monitoring capabilities evolve alongside the infrastructure.
-
-Each improvement increases both operational awareness and technical understanding.
+Documentation accompanies significant improvements to ensure that design decisions and operational experience remain available for future development.
 
 ---
 
 ## Lessons Learned
 
-Effective monitoring is not measured by the number of alerts generated.
+Building and operating a monitoring platform has demonstrated that effective security depends on context rather than alert volume.
 
-It is measured by the ability to quickly identify meaningful events while minimizing unnecessary noise.
+Collecting large amounts of telemetry provides little value unless events can be interpreted, prioritised, and investigated efficiently.
 
-A smaller number of high-quality alerts consistently provides greater value than a large volume of alerts that require constant filtering.
+One of the most valuable lessons has been that detection engineering is an iterative process. Monitoring improves through continuous refinement, operational feedback, and a deeper understanding of normal system behaviour.
+
+Perhaps the greatest insight has been that successful security monitoring is built on disciplined engineering practices, thoughtful architecture, and continuous learning rather than individual security tools.
