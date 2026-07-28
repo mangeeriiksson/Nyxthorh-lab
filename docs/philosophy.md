@@ -1,79 +1,60 @@
 # Philosophy
 
-## Why This Lab Exists
+## Overview
 
-Nyxthorh Lab was created to provide a practical environment for learning, experimentation, and continuous improvement.
+Nyxthorh Lab exists to provide a practical environment for learning, experimentation, and continuous improvement.
 
-The project exists because real understanding comes from building, maintaining, troubleshooting, and refining systems over time. Reading documentation and completing courses provide valuable knowledge, but practical experience develops through repetition, mistakes, and problem solving.
+The project is built on the belief that technical knowledge is developed through designing, operating, maintaining, and documenting real systems over time. While theory provides an important foundation, practical experience develops through solving problems, refining designs, and learning from mistakes.
 
-The lab is intended to support long-term growth rather than short-term demonstrations.
-
----
-
-## Learning Through Practice
-
-Every service introduced into the lab serves a purpose.
-
-Some technologies are deployed to solve operational challenges, while others are introduced purely to understand how they work and how they interact with surrounding infrastructure.
-
-Success is measured by increased understanding rather than the number of deployed services.
+The lab is intended to support long-term professional development rather than becoming a finished project.
 
 ---
 
-## Self-Hosted by Choice
+## Objectives
 
-Whenever practical, services are operated locally.
+The philosophy of the project is guided by several long-term objectives:
 
-Self-hosting provides complete control over configuration, data, and system behaviour while creating opportunities to understand technologies at a much deeper level than simply consuming managed services.
+- Develop practical engineering skills.
+- Build a deeper understanding of enterprise technologies.
+- Improve defensive security knowledge through hands-on experience.
+- Create well-documented infrastructure.
+- Encourage continuous learning and curiosity.
+- Build systems that remain understandable and maintainable.
 
-Operating infrastructure personally also creates responsibility for maintenance, security, documentation, and long-term reliability.
-
----
-
-## Documentation Matters
-
-Documentation is considered an essential part of every project.
-
-A solution that cannot be understood several months later is not considered complete.
-
-Recording architectural decisions, implementation details, and lessons learned improves maintainability while making future improvements significantly easier.
+Success is measured by knowledge gained rather than the number of deployed technologies.
 
 ---
 
-## Continuous Improvement
+## Design
 
-The lab is expected to change continuously.
+Every component within the lab is introduced for a specific reason.
 
-Technologies evolve.
+Technologies are selected because they provide learning opportunities or solve practical problems, not simply because they are available.
 
-Requirements change.
+The environment is designed to evolve gradually through informed architectural decisions instead of frequent large-scale redesigns.
 
-Better solutions become available.
-
-Rather than avoiding change, the project embraces it through careful planning, testing, documentation, and review.
+Documentation forms part of the overall design philosophy, ensuring that decisions and lessons remain valuable long after implementation.
 
 ---
 
-## Measuring Success
+## Operational Philosophy
 
-The success of the Nyxthorh Lab is not measured by the number of servers, virtual machines, or deployed applications.
+The project embraces continuous improvement.
 
-Instead, success is measured by:
+Infrastructure is regularly reviewed, refined, and occasionally redesigned as new experience is gained.
 
-- Better technical understanding.
-- Improved engineering practices.
-- Stronger documentation.
-- More informed architectural decisions.
-- Continuous personal development.
+Changes are introduced deliberately, documented throughout the process, and evaluated afterwards to understand both expected and unexpected outcomes.
+
+The objective is to build not only reliable infrastructure, but also a disciplined engineering mindset.
 
 ---
 
-## Closing Thoughts
+## Lessons Learned
 
-Nyxthorh Lab is not intended to become a finished project.
+One of the most important lessons has been that technology alone does not create valuable experience.
 
-It is intended to remain a platform for continuous learning, experimentation, and professional growth.
+Planning, documentation, troubleshooting, and continuous refinement contribute just as much to professional development as successful implementations.
 
-The infrastructure will change over time.
+Perhaps the greatest lesson is that learning is an ongoing process. Every project, whether successful or unsuccessful, provides new knowledge that can be applied to future work.
 
-The mindset behind it should remain the same.
+The Nyxthorh Lab is therefore not intended to reach a final state. Its purpose is to remain a platform for continuous learning, experimentation, and professional growth.
